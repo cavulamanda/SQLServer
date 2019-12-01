@@ -25,6 +25,18 @@
           <AssociatedConnUserName />
           <FullPath>01_PrepareDatabase.sql</FullPath>
         </FileNode>
+        <FileNode Name="02_01_sp_sqlskills_exposecolsinindexlevels.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02_01_sp_sqlskills_exposecolsinindexlevels.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_02_sp_sqlskills_sql2012_helpindex.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESK:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESK</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02_02_sp_sqlskills_sql2012_helpindex.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">

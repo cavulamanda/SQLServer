@@ -80,3 +80,11 @@ index_depth as D
 --,avg_fragmentation_in_percent
 FROM [sys].[dm_db_index_physical_stats](db_id(N'EmployeeCaseStudy'),Object_ID(N'dbo.Employee'),1,NULL,'DETAILED')
 
+/*
+The Non clustered Lead level contains:
+leaf-level row = nonclustered index column(s) + data row lookup id + row overhead
+data row lookup id = fixed RID (if heap) or clustering key (if table has Clustered Index)
+*/
+
+--Better code for sp_helpIndex, written by SQLSkills.com
+-- Download location : http://bit.ly/2sIyRW4
